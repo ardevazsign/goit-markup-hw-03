@@ -1,0 +1,191 @@
+:root {
+    --primary-color:#4D5AE5;
+    --primary-white: #fff;
+    --background-font: #2E2F42;
+    --hover-background: #0707f6;
+    --cloud: #F4F4FD;
+    --paragraph-color: #434455;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* header & tag selector */
+a {
+    text-decoration: none;
+}
+ul {
+    padding-left: 0;
+    margin-left: 10px;
+}
+ul > li{
+    list-style-type: none;
+}
+li>a {
+    text-decoration: none;
+    color: var(--paragrap-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+ul > li > a:hover{
+    color: var(--primary-color);
+}
+
+/* Text-Logo, index pages & contacts */
+.logo{
+    margin-left: 5px;
+}
+.web {
+    margin-left: 5px;
+    color: var(--primary-color);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.studio {
+    color: var(--background-font);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;   
+}
+.top-menu{
+    margin-top: 10px;
+    margin-left: 1px;
+}
+.pages {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contacts-menu{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Hero Image */
+h1 {
+    color: var(--primary-white);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+.hero {
+    margin: 40px 5px 15px 10px;
+    background-color: var(--background-font);
+    height: 140px;
+}
+.button {
+     background: var(--primary-color);
+     color: var(--primary-white);
+     border-radius: 4px;
+     padding: 2px;
+     /* font-size: 16px; */
+     font-weight: 500;
+     letter-spacing: 0.64px;
+     cursor: pointer;
+    border-radius: 5px;
+     border: none;
+}
+.button:hover {
+     background-color: var(--hover-background);
+     color: var(--primary-white);
+     border-radius: 5px;
+     padding: 2px;
+     letter-spacing: .5px;
+}
+
+/* Section1 */
+.advantage{
+  margin-top: 15px;
+}
+.advantage > li {
+    color: var(--background-font);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+.advantage > p{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+/* what are we doing-Section 2 */
+
+h2 {
+    color: var(--background-font);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+}
+
+
+/*Our team-section3*/
+
+.team{
+   background-color: var(--cloud);
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+.team > p{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+
+/* footer */
+.notation{
+    background-color: var(--background-font);
+    margin-left: 5px;
+}
+.notation .studio{
+    color: var(--primary-white);
+    font-size: 15px;
+}
+.notation .web{
+    color: var(--primary-color);
+    font-size: 15px;
+}
+.notation > p{
+    color: var(--primary-white);
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+/* portfolio.html */
+.button-portfolio{
+    color: var(--primary-color);
+    margin-left: 10px;
+}
+.button-portfolio:hover{
+    margin-left: 10px;
+    color: var(--primary-white);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
