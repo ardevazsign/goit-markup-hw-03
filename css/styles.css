@@ -54,21 +54,38 @@ ul > li > a:hover{
     text-transform: uppercase;   
 }
 .top-menu{
-    margin-top: 10px;
-    margin-left: 1px;
+    display: inline-flex;
+    margin-top: 24px;
+    margin-left: 156px;
+}
+/* hw-3 */
+.menu{
+    margin-left: 72px;
 }
 .pages {
+    display: inline-flex;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
     font-weight: 500;
 }
+.menu .pages > li > a{
+    justify-content: space-between;
+    margin: 20px;
+}
 
 .contacts-menu{
+    display: inline-flex;
+    /* margin-right: 156px; */
+    margin-left: 40px;
     margin-top: 0;
     padding-top: 0;
     font-size: 16px;
     font-weight: 500;
+}
+.contacts-menu > li >a{
+    justify-content: space-between;
+    margin: 15px;
 }
 
 /* Hero Image */
@@ -84,26 +101,34 @@ h1 {
 .hero {
     margin: 40px 5px 15px 10px;
     background-color: var(--background-font);
-    height: 140px;
+    /* height: 140px; */
+    /* width: 1440px; */
+    padding: 400px;
+    width: auto;
+    height: 600px;
 }
 .button {
-     background: var(--primary-color);
-     color: var(--primary-white);
-     border-radius: 4px;
-     padding: 2px;
-     /* font-size: 16px; */
-     font-weight: 500;
-     letter-spacing: 0.64px;
-     cursor: pointer;
+    background: var(--primary-color);
+    color: var(--primary-white);
+    border-radius: 4px;
+    padding: 2px;
+    width: 159px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    cursor: pointer;
     border-radius: 5px;
-     border: none;
+    border: none;
 }
 .button:hover {
-     background-color: var(--hover-background);
-     color: var(--primary-white);
-     border-radius: 5px;
-     padding: 2px;
-     letter-spacing: .5px;
+    background-color: var(--hover-background);
+    color: var(--primary-white);
+    border-radius: 5px;
+    padding: 2px;
+    letter-spacing: .5px;
+    width: 159px;
+    height: 56px;
 }
 
 /* Section1 */
