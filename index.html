@@ -18,16 +18,16 @@
 <body>
     
 <header class="top-menu">
-        <a href="logo" class="logo"><span class="web">web</span><span class="studio">studio</span></a>
+        <a href="logo" class="web">web<span class="studio">studio</span></a>
     
     <nav class="menu">
         <ul class="pages">
-            <li><a href="index.html">Studio</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contacts">Contacts</a></li>
+            <li class="page"><a href="index.html">Studio</a></li>
+            <li class="page"><a href="portfolio.html">Portfolio</a></li>
+            <li class="page"><a href="contacts">Contacts</a></li>
         </ul>
     </nav>
-    <div>
+    <div class="contacts">
         <ul class="contacts-menu">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+11(000) 111-11-11">+11(000) 111-11-11</a></li>
@@ -36,24 +36,22 @@
 </header>
 
 <main>
-    <!-- hero img -->
     <!-- Section  1 -->
+    <!-- hero img -->
     <section>
         <div class="hero">
-         <h1>Effective Solution <br>
-            for Your Business</h1>
-         <button type="button" class="button">Order Service</button>
+         <h1>Effective Solutions<br>for Your Business</h1>
+         <button type="button">Order Service</button>
         </div>
-      
-    
-        <ul class="advantage">
+    <!-- advantages -->
+        <ul class="advantages">
             <li>
             <b>Strategy</b>
             <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
             </li>
             <li>
             <b>Punctuality</b>
-            <p>Bring the key message to the brand's audience for the best price within the shortest possible time</p>
+            <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
             </li>
             <li>
             <b>Diligence</b>
@@ -68,11 +66,11 @@
     <!-- Section # 2 -->
     <section>
         <h2>What Are We Doing</h2>
-        <div>
-            <ul class="services-menu">
-                <li><img src="images/img 1.png" width="230px" alt="Apple monitor"></li>
-                <li><img src="images/img 2.png" width="230px" alt="cellphone"></li>
-                <li><img src="images/img 3.png" width="230px" alt="cellphone with laptop"></li>
+        <div class="services">
+            <ul class="services-img">
+                <li><img src="images/img 1.png" width="360" alt="Apple monitor"></li>
+                <li><img src="images/img 2.png" width="360" alt="cellphone"></li>
+                <li><img src="images/img 3.png" width="360" alt="cellphone with laptop"></li>
             </ul>
         </div>
     </section>
@@ -80,33 +78,36 @@
     <!-- section # 3 -->
     <section class="team">
             <h2>Our Team</h2>
-            <ul>
-                <li>
-                <img src="images/img.png" width="150px" alt="photo">
-                <h3>Mark Guerrero</h3>
-                <p>Product Designer</p>
+        <div class="team-members">
+            <ul class="members">
+                <li class="member">
+                    <img src="images/img.png" width="264" alt="photo">
+                    <h3>Mark Guerrero</h3>
+                    <p>Product Designer</p>
                 </li>
-                <li>
-                <img src="images/img 6.png" width="150px" alt="photo">
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
+                <li class="member">
+                    <img src="images/img 6.png" width="264" alt="photo">
+                    <h3>Tom Ford</h3>
+                    <p>Frontend Developer</p>
                 </li>
-                <li>
-                <img src="images/img 7.png" width="150px" alt="photo">
-                <h3>Camilia Garcia</h3>
-                <p>Marketing</p>
+                <li class="member">
+                    <img src="images/img 7.png" width="264" alt="photo">
+                    <h3>Camilia Garcia</h3>
+                    <p>Marketing</p>
                 </li>
-                <li>
-                <img src="images/img 8.png" width="150px" alt="photo">
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
+                <li class="member">
+                    <img src="images/img 8.png" width="264" alt="photo">
+                    <h3>Daniel Wilson</h3>
+                    <p>UI Designer</p>
                 </li>
             </ul>
+        </div>
+            
     </section>
 </main>
    
     <footer class="notation">
-        <a class="web" href="logo">WEB</a><a class="studio" href="logo">STUDIO</a>
+        <a  href="logo" class="studio"><span class="web">web</span>studio</a>
         <p>Increase the flow of customers and <br> 
            sales for your business with digital <br>
            marketing & growth solution.</p>
